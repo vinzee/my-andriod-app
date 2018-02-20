@@ -11,7 +11,6 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button buttonDollarToEuro, buttonEuroToDollar, buttonOpenActivity;
     private EditText editTextDollar, editTextEuro;
-//    private View Main2Activity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +20,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         buttonDollarToEuro = findViewById(R.id.buttonDollarToEuro);
         buttonEuroToDollar = findViewById(R.id.buttonEuroToDollar);
         buttonOpenActivity = findViewById(R.id.buttonOpenActivity);
-//        buttonOpenActivity.setTooltipText("Open new activity");
 
         editTextDollar = findViewById(R.id.editTextDollar);
         editTextEuro = findViewById(R.id.editTextEuro);
